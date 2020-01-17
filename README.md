@@ -14,3 +14,26 @@ The exported reference points are used as input, together with a table holding t
 ## Step 2 - Code for validation of LU maps
 
 The second code (Validation_Area/Change) is used for the calculation of map accuracies and area estimates.
+
+## Validation with the FAO shiny tool
+
+The FAO-tool doesn't allow to manually adjust the number of reference points per class. The code below starts the shiny app. 
+
+Online tools for map validation:
+
+1. [The FAO tool](https://sepal.io/)
+
+2. [Collect Earth](https://collect.earth/home)
+
+```{r}
+##########################
+## start FAO shiny tool ##
+##########################
+
+# library(shiny)
+# options(shiny.launch.browser = TRUE)
+# runGitHub("openforis/accuracy-assessment",subdir="aa_design")
+# 
+# options(shiny.launch.browser = TRUE)
+# runGitHub("openforis/accuracy-assessment",subdir="aa_analysis")
+```
